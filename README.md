@@ -355,7 +355,7 @@ The design input points, output to _filename_, are suitable for reading by GP_em
 
 <a name="Uncertainty and Sensitivity Analysis"/>
 ##Uncertainty and Sensitivity Analysis
-Having constructed an emulator with GP_emu, the subpackage GP_emu can be used to perform sensitivity analysis. The routines only work for an emulator with a Gaussian kernel (with or without nugget) and linear mean function, and the inputs (of the model for which the emulator is built) are assumed to be independant and normally distributed with mean m and variance v (support for emulators with a generalised mean function and correlated inputs may be added in the future).
+Having constructed an emulator with GP_emu, the subpackage GP_emu can be used to perform sensitivity analysis. The routines only work for an emulator with a Gaussian kernel (with or without nugget) and linear mean function, and the inputs (of the model for which the emulator is built) are assumed to be independent and normally distributed with mean m and variance v (support for emulators with a generalised mean function and correlated inputs may be added in the future).
 
 ### Setup
 

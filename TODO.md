@@ -1,7 +1,7 @@
 # TODO
 
 ## major dev
-Allow nugget to be fitted as an independant hyperparameter?
+Allow nugget to be fitted as an independent hyperparameter?
 
 Include "special case 2" for the sensitivity (so that we can generalise the mean function)?
 
