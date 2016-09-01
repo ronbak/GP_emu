@@ -241,7 +241,7 @@ class Sensitivity:
         self.P_b4_prod = np.zeros([self.x[:,0].size,self.x[:,0].size,len(self.m)])
         self.Uw_b4_prod = np.zeros([len(self.m)])
     def b4_input_loop(self):
-        ### dependance on self.w and self.wb comes later
+        ### dependence on self.w and self.wb comes later
         self.P_prod_calc()
         #self.Uw_calc()
     def setup_w_wb(self,P):
