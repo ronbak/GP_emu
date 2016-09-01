@@ -1,4 +1,4 @@
-### for the user accessable sensitivity functions
+### for the user accessible sensitivity functions
 import numpy as _np
 import matplotlib.pyplot as plt
 from ._sensitivityclasses import *
