@@ -393,7 +393,7 @@ class Data:
         self.A = self.K.run_var_list(self.inputs)
 
 
-### posterior distrubution, and also some validation tests
+### posterior distribution, and also some validation tests
 class Posterior:
     def __init__(self, Dnew, Dold, par, beliefs, K):
         self.Dnew = Dnew
